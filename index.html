@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Rajveer Miguel S. Madrid">
+  <meta name="description" content="practice js while improving the template with meta tags and a favicon ">
+  <meta name="keywords" content="PSHS-MC, CS3, Q3W6, meta, favicon, calculator, 3rdG">
+  <title>Madrid - CS3 calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="exo-2-exofont">
+
+  <header id="header"> </header>
+
+  <div id="calculator">
+    <input class="textview" id="textview" disabled>
+    <button onclick="insert('7')"> 7 </button>
+    <button onclick="insert('8')"> 8 </button>
+    <button onclick="insert('9')"> 9 </button>
+    <button onclick="insert('+')"> + </button>
+    <button onclick="insert('4')"> 4 </button>
+    <button onclick="insert('5')"> 5 </button>
+    <button onclick="insert('6')"> 6 </button>
+    <button onclick="insert('-')"> - </button>
+    <button onclick="insert('1')"> 1 </button>
+    <button onclick="insert('2')"> 2 </button>
+    <button onclick="insert('3')"> 3 </button>
+    <button onclick="insert('*')"> * </button>
+    <button onclick="insert('0')"> 0 </button>
+    <button onclick="insert('.')"> . </button>
+    <button onclick="back()"> < </button>
+    <button onclick="insert('/')"> / </button>
+    <button onclick="clean()" style="width:100px; margin:8px;"> C </button>
+    <button onclick="equal()" style="width:100px; margin:8px;"> = </button>
+  </div>
+  <p>*Note: Answers are rounded to 3 decimal places</p>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
